@@ -50,6 +50,7 @@ document.querySelector('.check').addEventListener('click', function () {
     } else {
       displayMessage('You lose! :(');
       document.querySelector('.score').textContent = 0;
+      document.querySelector('body').style.backgroundColor = '#FF0000';
     }
   }
 });
